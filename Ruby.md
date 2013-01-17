@@ -8,8 +8,9 @@ Adapted in large part from http://github.com/styleguide/ruby
   * [Constant declarations](#constant_declarations)
   * [Class declarations](#class_declarations)
   * [Main program](#main_program)
-* more
-* more
+* [Constant](#constants)
+* [Class](#class)
+* [Method](#methods)
 
 
 <a id="program_structure">Program Structure</a>
@@ -122,3 +123,4 @@ Example:
 
     puts "Why bother?"
     Process.exit!
+
