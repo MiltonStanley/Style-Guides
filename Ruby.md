@@ -2,6 +2,8 @@ Ruby Style Guide
 ================
 Adapted in large part from http://github.com/styleguide/ruby
 
+
+* [Project Structure](#project_stucture)
 * [Program Structure](#program_structure)
   * [Header statement](#header_statement)
   * [Require declarations](#require_declarations)
@@ -12,6 +14,13 @@ Adapted in large part from http://github.com/styleguide/ruby
 * [Class](#class)
 * [Method](#methods)
 
+
+<a id="project_structure">Project Structure</a>
+-----------------------------------------------
+1. Main directory hosts the parent program and any config files.
+2. ./lib hosts all custom 'require' files
+3. ./samples holds all data required for testing program
+4. ./tests holds unit tests
 
 <a id="program_structure">Program Structure</a>
 -----------------
