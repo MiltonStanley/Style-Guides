@@ -19,6 +19,7 @@ Adapted in large part from http://github.com/styleguide/ruby
 -----------------------------------------------
 1. Main directory hosts the parent program and any config files.
 2. ./lib hosts all custom 'require' files
+  - Except for the smallest scripts, this includes separate files for classes.
 3. ./samples holds all data required for testing program
 4. ./tests holds unit tests
 
